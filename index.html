@@ -1,0 +1,2001 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width = device - width, initial-scale=1.0">
+        <meta name="author" content="Rajat Gupta">
+        <meta name="description" content="Quiz App">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="styles.css">
+        <title>Quiz App</title>
+    </head>
+    <body>
+        <header>
+            <figure class="logo"><a href="#"><img src="images/logo.png" alt="logo" id="logo"></a></figure>
+            <h1>Quiz App</h1>
+        </header>
+        <section class="main-section">
+            <div class="main">
+                <h2>Choose Your Quiz Category</h2>
+                <div class="grid">
+                    <a href="#maths1" class="quiz-tile">
+                        <img src="images/math.jpg" alt="Mathematics" class="tile">
+                        <p class="tile-title">Mathematics Quiz</p>
+                    </a>
+                    <a href="#chem1" class="quiz-tile">
+                        <img src="images/chem.jpg" alt="Chemistry" class="tile">
+                        <p class="tile-title">Chemistry Quiz</p>
+                    </a>
+                    <a href="#hist1" class="quiz-tile">
+                        <img src="images/Hist.jpg" alt="History" class="tile">
+                        <p class="tile-title">History Quiz</p>
+                    </a>
+                    <a href="#geo1" class="quiz-tile">
+                        <img src="images/geo.jpg" alt="Geography" class="tile">
+                        <p class="tile-title">Geography Quiz</p>
+                    </a>
+                    <a href="#lit1" class="quiz-tile">
+                        <img src="images/lit.jpg" alt="Literature" class="tile">
+                        <p class="tile-title">Literature Quiz</p>
+                    </a>
+                    <a href="#enter1" class="quiz-tile">
+                        <img src="images/entertain.jpg" alt="Entertainment" class="tile">
+                        <p class="tile-title">Entertainment Quiz</p>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <span>Made By Rajat Gupta</span>
+            <ul>
+                <li>
+                    <a href="https://github.com/NightShift0607" target="_blank">
+                        <i class="fa fa-github"></i> GitHub
+                    </a>
+                </li>
+                <li>
+                    <a href="mailto:rajatgupta0607@gmail.com" target="_blank">
+                        <i class="fa fa-at"></i> Email
+                    </a>
+                    </li>
+                <li>
+                    <a href="https://www.linkedin.com/in/rajat-gupta-716a5b28b/" target="_blank">
+                        <i class="fa fa-linkedin"></i> Linkedin
+                    </a>
+                </li>
+            </ul>
+        </footer>
+        <section class="quiz-section" id="maths1">
+            <div class="quiz">
+                <h2>If A is a square matrix of 3 x 3 order, where |A| = 3, then find out the value of |adjA|.</h2>
+                <form method="post">
+                    <div class="grid2">
+                        <label for="q1-a1">
+                            <input type="radio" id="q1-a1" name="q1" value="3" />
+                            3
+                        </label>
+                        <label for="q1-a2">
+                            <input type="radio" id="q1-a2" name="q1" value="9" />
+                            9
+                        </label>
+                        <label for="q1-a3">
+                            <input type="radio" id="q1-a3" name="q1" value="30" />
+                            30
+                        </label>
+                        <label for="q1-a4">
+                            <input type="radio" id="q1-a4" name="q1" value="1/3" />
+                            1/3
+                        </label>
+                    </div>
+                    <a href="#" class="next">
+                        <input type="button" value="Main Menu" class="btn blue">
+                    </a>
+                    <input type="reset" value="Clear" class="btn red">
+                    <a href="#maths6" class="next"> 
+                        <input type="button" value="Next" class="btn green">
+                    </a>
+                </form>
+            </div>
+        </section>
+        <section class="quiz-section" id="maths6">
+            <div class="quiz">
+                <h2>If A is a square matrix of 3 x 3 order, where |A| = 3, then find out the value of |adjA|.</h2>
+                <form method="post">
+                    <div class="grid2">
+                        <label for="q1-a1" class="wrong">
+                            <input type="radio" id="q1-a1" name="q1" value="3" />
+                            3
+                        </label>
+                        <label for="q1-a2" class="ans">
+                            <input type="radio" id="q1-a2" name="q1" value="9" checked />
+                            9
+                        </label>
+                        <label for="q1-a3" class="wrong">
+                            <input type="radio" id="q1-a3" name="q1" value="30" />
+                            30
+                        </label>
+                        <label for="q1-a4" class="wrong">
+                            <input type="radio" id="q1-a4" name="q1" value="1/3" />
+                            1/3
+                        </label>
+                    </div>
+                    <a href="#maths1" class="next">
+                        <input type="button" value="Back" class="btn blue">
+                    </a>
+                    <input type="reset" value="Clear" class="btn red">
+                    <a href="#maths2" class="next"> 
+                        <input type="button" value="Next" class="btn green">
+                    </a>
+                </form>
+            </div>
+        </section>
+        <section class="quiz-section" id="maths2">
+            <div class="quiz">
+                <h2>If A and B are two events, where P (A) = 0.2, P (B) = 0.4 and P(A U B) = 0.5. Find the value of P(A/B).</h2>
+                <form method="post">
+                    <div class="grid2">
+                        <label for="q2-a1">
+                            <input type="radio" id="q2-a1" name="q2" value="0.25" />
+                            0.25
+                        </label>
+                        <label for="q2-a2">
+                            <input type="radio" id="q2-a2" name="q2" value="0.08" />
+                            0.08
+                        </label>
+                        <label for="q2-a3">
+                            <input type="radio" id="q2-a3" name="q2" value="0.1" />
+                            0.1
+                        </label>
+                        <label for="q2-a4">
+                            <input type="radio" id="q2-a4" name="q2" value="0.080" />
+                            0.080
+                        </label>
+                    </div>
+                    <a href="#maths1" class="next">
+                        <input type="button" value="Back" class="btn blue">
+                    </a>
+                    <input type="reset" value="Clear" class="btn red">
+                    <a href="#maths7" class="next">
+                        <input type="button" value="Next" class="btn green">
+                    </a>
+                </form>
+            </div>
+        </section>
+        <section class="quiz-section" id="maths7">
+            <div class="quiz">
+                <h2>If A and B are two events, where P (A) = 0.2, P (B) = 0.4 and P(A U B) = 0.5. Find the value of P(A/B).</h2>
+                <form method="post">
+                    <div class="grid2">
+                        <label for="q2-a1" class="ans">
+                            <input type="radio" id="q2-a1" name="q2" value="0.25" checked />
+                            0.25
+                        </label>
+                        <label for="q2-a2" class="wrong">
+                            <input type="radio" id="q2-a2" name="q2" value="0.08" />
+                            0.08
+                        </label>
+                        <label for="q2-a3" class="wrong">
+                            <input type="radio" id="q2-a3" name="q2" value="0.1" />
+                            0.1
+                        </label>
+                        <label for="q2-a4" class="wrong">
+                            <input type="radio" id="q2-a4" name="q2" value="0.080" />
+                            0.080
+                        </label>
+                    </div>
+                    <a href="#maths2" class="next">
+                        <input type="button" value="Back" class="btn blue">
+                    </a>
+                    <input type="reset" value="Clear" class="btn red">
+                    <a href="#maths3" class="next">
+                        <input type="button" value="Next" class="btn green">
+                    </a>
+                </form>
+            </div>
+        </section>
+        <section class="quiz-section" id="maths3">
+            <div class="quiz">
+                <h2>Which point does not lie in the half-plane for the given equation: 2x + 3y - 12 ≤ 0?</h2>
+                <form method="post">
+                    <div class="grid2">
+                        <label for="q3-a1">
+                            <input type="radio" id="q3-a1" name="q3" value="(2,3)" />
+                            (2,3)
+                        </label>
+                        <label for="q3-a2">
+                            <input type="radio" id="q3-a2" name="q3" value="(-3,2)" />
+                            (-3,2)
+                        </label>
+                        <label for="q3-a3">
+                            <input type="radio" id="q3-a3" name="q3" value="(1,2)" />
+                            (1,2)
+                        </label>
+                        <label for="q3-a4">
+                            <input type="radio" id="q3-a4" name="q3" value="(2,1)" />
+                            (2,1)
+                        </label>
+                    </div>
+                    <a href="#maths2" class="next">
+                        <input type="button" value="Back" class="btn blue">
+                    </a>
+                    <input type="reset" value="Clear" class="btn red">
+                    <a href="#maths8" class="next">
+                        <input type="button" value="Next" class="btn green">
+                    </a>
+                </form>
+            </div>
+        </section>
+        <section class="quiz-section" id="maths8">
+            <div class="quiz">
+                <h2>Which point does not lie in the half-plane for the given equation: 2x + 3y - 12 ≤ 0?</h2>
+                <form method="post">
+                    <div class="grid2">
+                        <label for="q3-a1" class="ans">
+                            <input type="radio" id="q3-a1" name="q3" value="(2,3)" checked />
+                            (2,3)
+                        </label>
+                        <label for="q3-a2" class="wrong">
+                            <input type="radio" id="q3-a2" name="q3" value="(-3,2)" />
+                            (-3,2)
+                        </label>
+                        <label for="q3-a3" class="wrong">
+                            <input type="radio" id="q3-a3" name="q3" value="(1,2)" />
+                            (1,2)
+                        </label>
+                        <label for="q3-a4" class="wrong">
+                            <input type="radio" id="q3-a4" name="q3" value="(2,1)" />
+                            (2,1)
+                        </label>
+                    </div>
+                    <a href="#maths3" class="next">
+                        <input type="button" value="Back" class="btn blue">
+                    </a>
+                    <input type="reset" value="Clear" class="btn red">
+                    <a href="#maths4" class="next">
+                        <input type="button" value="Next" class="btn green">
+                    </a>
+                </form>
+            </div>
+        </section>
+        <section class="quiz-section" id="maths4">
+            <div class="quiz">
+                <h2>The function f: A → B defined by f(x) = 4x + 7, x ∈ R is ?</h2>
+                <form method="post">
+                    <div class="grid2">
+                        <label for="q4-a1">
+                            <input type="radio" id="q4-a1" name="q4" value="one-one" />
+                            One-one
+                        </label>
+                        <label for="q4-a2">
+                            <input type="radio" id="q4-a2" name="q4" value="many-one" />
+                            Many-one
+                        </label>
+                        <label for="q4-a3">
+                            <input type="radio" id="q4-a3" name="q4" value="Odd" />
+                            Odd
+                        </label>
+                        <label for="q4-a4">
+                            <input type="radio" id="q4-a4" name="q4" value="Even" />
+                            Even
+                        </label>
+                    </div>
+                    <a href="#maths3" class="next">
+                        <input type="button" value="Back" class="btn blue">
+                    </a>
+                    <input type="reset" value="Clear" class="btn red">
+                    <a href="#maths9" class="next">
+                        <input type="button" value="Next" class="btn green">
+                    </a>
+                </form>
+            </div>
+        </section>
+        <section class="quiz-section" id="maths9">
+            <div class="quiz">
+                <h2>The function f: A → B defined by f(x) = 4x + 7, x ∈ R is ?</h2>
+                <form method="post">
+                    <div class="grid2">
+                        <label for="q4-a1" class="ans">
+                            <input type="radio" id="q4-a1" name="q4" value="one-one" checked />
+                            One-one
+                        </label>
+                        <label for="q4-a2" class="wrong">
+                            <input type="radio" id="q4-a2" name="q4" value="many-one" />
+                            Many-one
+                        </label>
+                        <label for="q4-a3" class="wrong">
+                            <input type="radio" id="q4-a3" name="q4" value="Odd" />
+                            Odd
+                        </label>
+                        <label for="q4-a4" class="wrong">
+                            <input type="radio" id="q4-a4" name="q4" value="Even" />
+                            Even
+                        </label>
+                    </div>
+                    <a href="#maths4" class="next">
+                        <input type="button" value="Back" class="btn blue">
+                    </a>
+                    <input type="reset" value="Clear" class="btn red">
+                    <a href="#maths5" class="next">
+                        <input type="button" value="Next" class="btn green">
+                    </a>
+                </form>
+            </div>
+        </section>
+        <section class="quiz-section" id="maths5">
+            <div class="quiz">
+                <h2>The maximum number of equivalence relations on the set A = {1, 2, 3} are ?</h2>
+                <form method="post">
+                    <div class="grid2">
+                        <label for="q5-a1">
+                            <input type="radio" id="q5-a1" name="q5" value="1" />
+                            1
+                        </label>
+                        <label for="q5-a2">
+                            <input type="radio" id="q5-a2" name="q5" value="2" />
+                            2
+                        </label>
+                        <label for="q5-a3">
+                            <input type="radio" id="q5-a3" name="q5" value="3" />
+                            3
+                        </label>
+                        <label for="q5-a4">
+                            <input type="radio" id="q5-a4" name="q5" value="5" />
+                            5
+                        </label>
+                    </div>
+                    <a href="#maths4" class="next">
+                        <input type="button" value="Back" class="btn blue">
+                    </a>
+                    <input type="reset" value="Clear" class="btn red">
+                    <a href="#maths10" class="next">
+                        <input type="button" value="Next" class="btn green">
+                    </a>
+                </form>
+            </div>
+        </section>
+        <section class="quiz-section" id="maths10">
+            <div class="quiz">
+                <h2>The maximum number of equivalence relations on the set A = {1, 2, 3} are ?</h2>
+                <form method="post">
+                    <div class="grid2">
+                        <label for="q5-a1" class="wrong">
+                            <input type="radio" id="q5-a1" name="q5" value="1" />
+                            1
+                        </label>
+                        <label for="q5-a2" class="wrong">
+                            <input type="radio" id="q5-a2" name="q5" value="2" />
+                            2
+                        </label>
+                        <label for="q5-a3" class="ans">
+                            <input type="radio" id="q5-a3" name="q5" value="3" checked />
+                            3
+                        </label>
+                        <label for="q5-a4" class="wrong">
+                            <input type="radio" id="q5-a4" name="q5" value="5" />
+                            5
+                        </label>
+                    </div>
+                    <a href="#maths5" class="next">
+                        <input type="button" value="Back" class="btn blue">
+                    </a>
+                    <input type="reset" value="Clear" class="btn red">
+                    <a href="#submit" class="next">
+                        <input type="button" value="Submit" class="btn green">
+                    </a>
+                </form>
+            </div>
+        </section>
+        <section class="quiz-section" id="chem1">
+            <div class="quiz">
+                <h2>Which of the following is a noble gas?</h2>
+                <form method="post">
+                    <div class="grid2">
+                        <label for="q6-a1">
+                            <input type="radio" id="q6-a1" name="q6" value="H" />
+                            H
+                        </label>
+                        <label for="q6-a2">
+                            <input type="radio" id="q6-a2" name="q6" value="N" />
+                            N
+                        </label>
+                        <label for="q6-a3">
+                            <input type="radio" id="q6-a3" name="q6" value="He" />
+                            He
+                        </label>
+                        <label for="q6-a4">
+                            <input type="radio" id="q6-a4" name="q6" value="O" />
+                            O
+                        </label>
+                    </div>
+                    <a href="#" class="next">
+                        <input type="button" value="Main Menu" class="btn blue">
+                    </a>
+                    <input type="reset" value="Clear" class="btn red">
+                    <a href="#chem6" class="next">
+                        <input type="button" value="Next" class="btn green">
+                    </a>
+                </form>
+            </div>
+        </section>
+        <section class="quiz-section" id="chem6">
+            <div class="quiz">
+                <h2>Which of the following is a noble gas?</h2>
+                <form method="post">
+                    <div class="grid2">
+                        <label for="q6-a1" class="wrong">
+                            <input type="radio" id="q6-a1" name="q6" value="H" />
+                            H
+                        </label>
+                        <label for="q6-a2" class="wrong">
+                            <input type="radio" id="q6-a2" name="q6" value="N" />
+                            N
+                        </label>
+                        <label for="q6-a3" class="ans">
+                            <input type="radio" id="q6-a3" name="q6" value="He" checked />
+                            He
+                        </label>
+                        <label for="q6-a4" class="wrong">
+                            <input type="radio" id="q6-a4" name="q6" value="O" />
+                            O
+                        </label>
+                    </div>
+                    <a href="#chem1" class="next">
+                        <input type="button" value="Back" class="btn blue">
+                    </a>
+                    <input type="reset" value="Clear" class="btn red">
+                    <a href="#chem2" class="next">
+                        <input type="button" value="Next" class="btn green">
+                    </a>
+                </form>
+            </div>
+        </section>
+        <section class="quiz-section" id="chem2">
+            <div class="quiz">
+                <h2>What is the atomic number of carbon?</h2>
+                <form method="post">
+                    <div class="grid2">
+                        <label for="q7-a1">
+                            <input type="radio" id="q7-a1" name="q7" value="4" />
+                            4
+                        </label>
+                        <label for="q7-a2">
+                            <input type="radio" id="q7-a2" name="q7" value="6" />
+                            6
+                        </label>
+                        <label for="q7-a3">
+                            <input type="radio" id="q7-a3" name="q7" value="8" />
+                            8
+                        </label>
+                        <label for="q7-a4">
+                            <input type="radio" id="q7-a4" name="q7" value="12" />
+                            12
+                        </label>
+                    </div>
+                    <a href="#chem1" class="next">
+                        <input type="button" value="Back" class="btn blue">
+                    </a>
+                    <input type="reset" value="Clear" class="btn red">
+                    <a href="#chem7" class="next">
+                        <input type="button" value="Next" class="btn green">
+                    </a>
+                </form>
+            </div>
+        </section>
+        <section class="quiz-section" id="chem7">
+            <div class="quiz">
+                <h2>What is the atomic number of carbon?</h2>
+                <form method="post">
+                    <div class="grid2">
+                        <label for="q7-a1" class="ans">
+                            <input type="radio" id="q7-a1" name="q7" value="4" checked />
+                            4
+                        </label>
+                        <label for="q7-a2" class="wrong">
+                            <input type="radio" id="q7-a2" name="q7" value="6" />
+                            6
+                        </label>
+                        <label for="q7-a3" class="wrong">
+                            <input type="radio" id="q7-a3" name="q7" value="8" />
+                            8
+                        </label>
+                        <label for="q7-a4" class="wrong">
+                            <input type="radio" id="q7-a4" name="q7" value="12" />
+                            12
+                        </label>
+                    </div>
+                    <a href="#chem2" class="next">
+                        <input type="button" value="Back" class="btn blue">
+                    </a>
+                    <input type="reset" value="Clear" class="btn red">
+                    <a href="#chem3" class="next">
+                        <input type="button" value="Next" class="btn green">
+                    </a>
+                </form>
+            </div>
+        </section>
+        <section class="quiz-section" id="chem3">
+            <div class="quiz">
+                <h2>Which element is the main component of organic compounds ?</h2>
+                <form method="post">
+                    <div class="grid2">
+                        <label for="q8-a1">
+                            <input type="radio" id="q8-a1" name="q8" value="O" />
+                            O
+                        </label>
+                        <label for="q8-a2">
+                            <input type="radio" id="q8-a2" name="q8" value="C" />
+                            C
+                        </label>
+                        <label for="q8-a3">
+                            <input type="radio" id="q8-a3" name="q8" value="N" />
+                            N
+                        </label>
+                        <label for="q8-a4">
+                            <input type="radio" id="q8-a4" name="q8" value="H" />
+                            H
+                        </label>
+                    </div>
+                    <a href="#chem2" class="next">
+                        <input type="button" value="Back" class="btn blue">
+                    </a>
+                    <input type="reset" value="Clear" class="btn red">
+                    <a href="#chem8" class="next">
+                        <input type="button" value="Next" class="btn green">
+                    </a>
+                </form>
+            </div>
+        </section>
+        <section class="quiz-section" id="chem8">
+            <div class="quiz">
+                <h2>Which element is the main component of organic compounds ?</h2>
+                <form method="post">
+                    <div class="grid2">
+                        <label for="q8-a1" class="wrong">
+                            <input type="radio" id="q8-a1" name="q8" value="O" />
+                            O
+                        </label>
+                        <label for="q8-a2" class="ans">
+                            <input type="radio" id="q8-a2" name="q8" value="C" checked />
+                            C
+                        </label>
+                        <label for="q8-a3" class="wrong">
+                            <input type="radio" id="q8-a3" name="q8" value="N" />
+                            N
+                        </label>
+                        <label for="q8-a4" class="wrong">
+                            <input type="radio" id="q8-a4" name="q8" value="H" />
+                            H
+                        </label>
+                    </div>
+                    <a href="#chem3" class="next">
+                        <input type="button" value="Back" class="btn blue">
+                    </a>
+                    <input type="reset" value="Clear" class="btn red">
+                    <a href="#chem4" class="next">
+                        <input type="button" value="Next" class="btn green">
+                    </a>
+                </form>
+            </div>
+        </section>
+        <section class="quiz-section" id="chem4">
+            <div class="quiz">
+                <h2>What is the formula for water ?</h2>
+                <form method="post">
+                    <div class="grid2">
+                        <label for="q9-a1">
+                            <input type="radio" id="q9-a1" name="q9" value="H2O" />
+                            H20
+                        </label>
+                        <label for="q9-a2">
+                            <input type="radio" id="q9-a2" name="q9" value="CO2" />
+                            CO2
+                        </label>
+                        <label for="q9-a3">
+                            <input type="radio" id="q9-a3" name="q9" value="NH3" />
+                            NH3
+                        </label>
+                        <label for="q9-a4">
+                            <input type="radio" id="q9-a4" name="q9" value="C6H12O6" />
+                            Even
+                        </label>
+                    </div>
+                    <a href="#chem3" class="next">
+                        <input type="button" value="Back" class="btn blue">
+                    </a>
+                    <input type="reset" value="Clear" class="btn red">
+                    <a href="#chem9" class="next">
+                        <input type="button" value="Next" class="btn green">
+                    </a>
+                </form>
+            </div>
+        </section>
+        <section class="quiz-section" id="chem9">
+            <div class="quiz">
+                <h2>What is the formula for water ?</h2>
+                <form method="post">
+                    <div class="grid2">
+                        <label for="q9-a1" class="ans">
+                            <input type="radio" id="q9-a1" name="q9" value="H2O" checked />
+                            H20
+                        </label>
+                        <label for="q9-a2" class="wrong">
+                            <input type="radio" id="q9-a2" name="q9" value="CO2" />
+                            CO2
+                        </label>
+                        <label for="q9-a3" class="wrong">
+                            <input type="radio" id="q9-a3" name="q9" value="NH3" />
+                            NH3
+                        </label>
+                        <label for="q9-a4" class="wrong">
+                            <input type="radio" id="q9-a4" name="q9" value="C6H12O6" />
+                            Even
+                        </label>
+                    </div>
+                    <a href="#chem4" class="next">
+                        <input type="button" value="Back" class="btn blue">
+                    </a>
+                    <input type="reset" value="Clear" class="btn red">
+                    <a href="#chem5" class="next">
+                        <input type="button" value="Next" class="btn green">
+                    </a>
+                </form>
+            </div>
+        </section>
+        <section class="quiz-section" id="chem5">
+            <div class="quiz">
+                <h2>What is the pH value of a neutral solution?</h2>
+                <form method="post">
+                    <div class="grid2">
+                        <label for="q10-a1">
+                            <input type="radio" id="q10-a1" name="q10" value="1" />
+                            1
+                        </label>
+                        <label for="q10-a2">
+                            <input type="radio" id="q10-a2" name="q10" value="7" />
+                            7
+                        </label>
+                        <label for="q10-a3">
+                            <input type="radio" id="q10-a3" name="q10" value="10" />
+                            10
+                        </label>
+                        <label for="q10-a4">
+                            <input type="radio" id="q10-a4" name="q10" value="14" />
+                            14
+                        </label>
+                    </div>
+                    <a href="#chem4" class="next">
+                        <input type="button" value="Back" class="btn blue">
+                    </a>
+                    <input type="reset" value="Clear" class="btn red">
+                    <a href="#chem10" class="next">
+                        <input type="button" value="Next" class="btn green">
+                    </a>
+                </form>
+            </div>
+        </section>
+        <section class="quiz-section" id="chem10">
+            <div class="quiz">
+                <h2>What is the pH value of a neutral solution?</h2>
+                <form method="post">
+                    <div class="grid2">
+                        <label for="q10-a1" class="wrong">
+                            <input type="radio" id="q10-a1" name="q10" value="1" />
+                            1
+                        </label>
+                        <label for="q10-a2" class="ans">
+                            <input type="radio" id="q10-a2" name="q10" value="7" checked />
+                            7
+                        </label>
+                        <label for="q10-a3" class="wrong">
+                            <input type="radio" id="q10-a3" name="q10" value="10" />
+                            10
+                        </label>
+                        <label for="q10-a4" class="wrong">
+                            <input type="radio" id="q10-a4" name="q10" value="14" />
+                            14
+                        </label>
+                    </div>
+                    <a href="#chem5" class="next">
+                        <input type="button" value="Back" class="btn blue">
+                    </a>
+                    <input type="reset" value="Clear" class="btn red">
+                    <a href="#submit" class="next">
+                        <input type="button" value="Submit" class="btn green">
+                    </a>
+                </form>
+            </div>
+        </section>
+        <section class="quiz-section" id="hist1">
+            <div class="quiz">
+                <h2>Which year India got its Independence ?</h2>
+                <form method="post">
+                    <div class="grid2">
+                        <label for="q11-a1">
+                            <input type="radio" id="q11-a1" name="q11" value="1945" />
+                            1945
+                        </label>
+                        <label for="q11-a2">
+                            <input type="radio" id="q11-a2" name="q11" value="1950" />
+                            1950
+                        </label>
+                        <label for="q11-a3">
+                            <input type="radio" id="q11-a3" name="q11" value="1947" />
+                            1947
+                        </label>
+                        <label for="q11-a4">
+                            <input type="radio" id="q11-a4" name="q11" value="1948" />
+                            1948
+                        </label>
+                    </div>
+                    <a href="#" class="next">
+                        <input type="button" value="Main Menu" class="btn blue">
+                    </a>
+                    <input type="reset" value="Clear" class="btn red">
+                    <a href="#hist6" class="next">
+                        <input type="button" value="Next" class="btn green">
+                    </a>
+                </form>
+            </div>
+        </section>
+        <section class="quiz-section" id="hist6">
+            <div class="quiz">
+                <h2>Which year India got its Independence ?</h2>
+                <form method="post">
+                    <div class="grid2">
+                        <label for="q11-a1" class="wrong">
+                            <input type="radio" id="q11-a1" name="q11" value="1945" />
+                            1945
+                        </label>
+                        <label for="q11-a2" class="wrong">
+                            <input type="radio" id="q11-a2" name="q11" value="1950" />
+                            1950
+                        </label>
+                        <label for="q11-a3" class="ans">
+                            <input type="radio" id="q11-a3" name="q11" value="1947" checked />
+                            1947
+                        </label>
+                        <label for="q11-a4" class="wrong">
+                            <input type="radio" id="q11-a4" name="q11" value="1948" />
+                            1948
+                        </label>
+                    </div>
+                    <a href="#chem1" class="next">
+                        <input type="button" value="Back" class="btn blue">
+                    </a>
+                    <input type="reset" value="Clear" class="btn red">
+                    <a href="#hist2" class="next">
+                        <input type="button" value="Next" class="btn green">
+                    </a>
+                </form>
+            </div>
+        </section>
+        <section class="quiz-section" id="hist2">
+            <div class="quiz">
+                <h2>When was World War I started ?</h2>
+                <form method="post">
+                    <div class="grid2">
+                        <label for="q12-a1">
+                            <input type="radio" id="q12-a1" name="q12" value="1914" />
+                            1914
+                        </label>
+                        <label for="q12-a2">
+                            <input type="radio" id="q12-a2" name="q12" value="1916" />
+                            1916
+                        </label>
+                        <label for="q12-a3">
+                            <input type="radio" id="q2-a3" name="q12" value="1918" />
+                            1918
+                        </label>
+                        <label for="q12-a4">
+                            <input type="radio" id="q12-a4" name="q12" value="1912" />
+                            1912
+                        </label>
+                    </div>
+                    <a href="#hist1" class="next">
+                        <input type="button" value="Back" class="btn blue">
+                    </a>
+                    <input type="reset" value="Clear" class="btn red">
+                    <a href="#hist7" class="next">
+                        <input type="button" value="Next" class="btn green">
+                    </a>
+                </form>
+            </div>
+        </section>
+        <section class="quiz-section" id="hist7">
+            <div class="quiz">
+                <h2>When was World War I started ?</h2>
+                <form method="post">
+                    <div class="grid2">
+                        <label for="q12-a1" class="ans">
+                            <input type="radio" id="q12-a1" name="q12" value="1914" checked />
+                            1914
+                        </label>
+                        <label for="q12-a2" class="wrong">
+                            <input type="radio" id="q12-a2" name="q12" value="1916" />
+                            1916
+                        </label>
+                        <label for="q12-a3" class="wrong">
+                            <input type="radio" id="q2-a3" name="q12" value="1918" />
+                            1918
+                        </label>
+                        <label for="q12-a4" class="wrong">
+                            <input type="radio" id="q12-a4" name="q12" value="1912" />
+                            1912
+                        </label>
+                    </div>
+                    <a href="#hist2" class="next">
+                        <input type="button" value="Back" class="btn blue">
+                    </a>
+                    <input type="reset" value="Clear" class="btn red">
+                    <a href="#hist3" class="next">
+                        <input type="button" value="Next" class="btn green">
+                    </a>
+                </form>
+            </div>
+        </section>
+        <section class="quiz-section" id="hist3">
+            <div class="quiz">
+                <h2>When was World War II started ?</h2>
+                <form method="post">
+                    <div class="grid2">
+                        <label for="q13-a1">
+                            <input type="radio" id="q13-a1" name="q13" value="1936" />
+                            1936
+                        </label>
+                        <label for="q13-a2">
+                            <input type="radio" id="q3-a2" name="q13" value="1939" />
+                            1939
+                        </label>
+                        <label for="q13-a3">
+                            <input type="radio" id="q3-a3" name="q13" value="1940" />
+                            1940
+                        </label>
+                        <label for="q13-a4">
+                            <input type="radio" id="q13-a4" name="q13" value="1937" />
+                            1937
+                        </label>
+                    </div>
+                    <a href="#hist2" class="next">
+                        <input type="button" value="Back" class="btn blue">
+                    </a>
+                    <input type="reset" value="Clear" class="btn red">
+                    <a href="#hist8" class="next">
+                        <input type="button" value="Next" class="btn green">
+                    </a>
+                </form>
+            </div>
+        </section>
+        <section class="quiz-section" id="hist8">
+            <div class="quiz">
+                <h2>When was World War II started ?</h2>
+                <form method="post">
+                    <div class="grid2">
+                        <label for="q13-a1" class="wrong">
+                            <input type="radio" id="q13-a1" name="q13" value="1936" />
+                            1936
+                        </label>
+                        <label for="q13-a2" class="ans">
+                            <input type="radio" id="q3-a2" name="q13" value="1939" checked />
+                            1939
+                        </label>
+                        <label for="q13-a3" class="wrong">
+                            <input type="radio" id="q3-a3" name="q13" value="1940" />
+                            1940
+                        </label>
+                        <label for="q13-a4" class="wrong">
+                            <input type="radio" id="q13-a4" name="q13" value="1937" />
+                            1937
+                        </label>
+                    </div>
+                    <a href="#hist3" class="next">
+                        <input type="button" value="Back" class="btn blue">
+                    </a>
+                    <input type="reset" value="Clear" class="btn red">
+                    <a href="#hist4" class="next">
+                        <input type="button" value="Next" class="btn green">
+                    </a>
+                </form>
+            </div>
+        </section>
+        <section class="quiz-section" id="hist4">
+            <div class="quiz">
+                <h2>The rulers of which among the following dynasties adopted the title Devaputra ?</h2>
+                <form method="post">
+                    <div class="grid2">
+                        <label for="q14-a1">
+                            <input type="radio" id="q14-a1" name="q14" value="maurya" />
+                            Maurya
+                        </label>
+                        <label for="q14-a2">
+                            <input type="radio" id="q14-a2" name="q14" value="sunga" />
+                            Sunga
+                        </label>
+                        <label for="q14-a3">
+                            <input type="radio" id="q4-a3" name="q14" value="kushana" />
+                            Kushana
+                        </label>
+                        <label for="q14-a4">
+                            <input type="radio" id="q14-a4" name="q14" value="gupta" />
+                            Gupta
+                        </label>
+                    </div>
+                    <a href="#hist3" class="next">
+                        <input type="button" value="Back" class="btn blue">
+                    </a>
+                    <input type="reset" value="Clear" class="btn red">
+                    <a href="#hist9" class="next">
+                        <input type="button" value="Next" class="btn green">
+                    </a>
+                </form>
+            </div>
+        </section>
+        <section class="quiz-section" id="hist9">
+            <div class="quiz">
+                <h2>The rulers of which among the following dynasties adopted the title Devaputra ?</h2>
+                <form method="post">
+                    <div class="grid2">
+                        <label for="q14-a1" class="wrong">
+                            <input type="radio" id="q14-a1" name="q14" value="maurya" />
+                            Maurya
+                        </label>
+                        <label for="q14-a2" class="wrong">
+                            <input type="radio" id="q14-a2" name="q14" value="sunga" />
+                            Sunga
+                        </label>
+                        <label for="q14-a3" class="ans">
+                            <input type="radio" id="q4-a3" name="q14" value="kushana" checked />
+                            Kushana
+                        </label>
+                        <label for="q14-a4" class="wrong">
+                            <input type="radio" id="q14-a4" name="q14" value="gupta" />
+                            Gupta
+                        </label>
+                    </div>
+                    <a href="#hist4" class="next">
+                        <input type="button" value="Back" class="btn blue">
+                    </a>
+                    <input type="reset" value="Clear" class="btn red">
+                    <a href="#hist5" class="next">
+                        <input type="button" value="Next" class="btn green">
+                    </a>
+                </form>
+            </div>
+        </section>
+        <section class="quiz-section" id="hist5">
+            <div class="quiz">
+                <h2>First Buddhist Council was held during the reign of which of the following kings ?</h2>
+                <form method="post">
+                    <div class="grid2">
+                        <label for="q15-a1">
+                            <input type="radio" id="q15-a1" name="q15" value="ajatsatru" />
+                            Ajatsatru
+                        </label>
+                        <label for="q15-a2">
+                            <input type="radio" id="q15-a2" name="q15" value="ashoka" />
+                            Ashoka
+                        </label>
+                        <label for="q15-a3">
+                            <input type="radio" id="q15-a3" name="q15" value="kanishka" />
+                            Kanishka
+                        </label>
+                        <label for="q15-a4">
+                            <input type="radio" id="q15-a4" name="q15" value="kalasoka" />
+                            Kalasoka
+                        </label>
+                    </div>
+                    <a href="#hist4" class="next">
+                        <input type="button" value="Back" class="btn blue">
+                    </a>
+                    <input type="reset" value="Clear" class="btn red">
+                    <a href="#hist10" class="next">
+                        <input type="button" value="Next" class="btn green">
+                    </a>
+                </form>
+            </div>
+        </section>
+        <section class="quiz-section" id="hist10">
+            <div class="quiz">
+                <h2>First Buddhist Council was held during the reign of which of the following kings ?</h2>
+                <form method="post">
+                    <div class="grid2">
+                        <label for="q15-a1" class="ans">
+                            <input type="radio" id="q15-a1" name="q15" value="ajatsatru" checked />
+                            Ajatsatru
+                        </label>
+                        <label for="q15-a2" class="wrong">
+                            <input type="radio" id="q15-a2" name="q15" value="ashoka" />
+                            Ashoka
+                        </label>
+                        <label for="q15-a3" class="wrong">
+                            <input type="radio" id="q15-a3" name="q15" value="kanishka" />
+                            Kanishka
+                        </label>
+                        <label for="q15-a4" class="wrong">
+                            <input type="radio" id="q15-a4" name="q15" value="kalasoka" />
+                            Kalasoka
+                        </label>
+                    </div>
+                    <a href="#hist5" class="next">
+                        <input type="button" value="Back" class="btn blue">
+                    </a>
+                    <input type="reset" value="Clear" class="btn red">
+                    <a href="#submit" class="next">
+                        <input type="button" value="Submit" class="btn green">
+                    </a>
+                </form>
+            </div>
+        </section>
+        <section class="quiz-section" id="geo1">
+            <div class="quiz">
+                <h2>Which among the following is the chief crop of Deccan Plateau ?</h2>
+                <form method="post">
+                    <div class="grid2">
+                        <label for="q16-a1">
+                            <input type="radio" id="q16-a1" name="q16" value="wheat" />
+                            Wheat
+                        </label>
+                        <label for="q16-a2">
+                            <input type="radio" id="q16-a2" name="q16" value="ground nut" />
+                            Ground Nut
+                        </label>
+                        <label for="q16-a3">
+                            <input type="radio" id="q16-a3" name="q16" value="pulses" />
+                            Pulses
+                        </label>
+                        <label for="q16-a4">
+                            <input type="radio" id="q16-a4" name="q16" value="cotton" />
+                            Cotton
+                        </label>
+                    </div>
+                    <a href="#" class="next">
+                        <input type="button" value="Main Menu" class="btn blue">
+                    </a>
+                    <input type="reset" value="Clear" class="btn red">
+                    <a href="#geo6" class="next">
+                        <input type="button" value="Next" class="btn green">
+                    </a>
+                </form>
+            </div>
+        </section>
+        <section class="quiz-section" id="geo6">
+            <div class="quiz">
+                <h2>Which among the follow  ing is the chief crop of Deccan Plateau ?</h2>
+                <form method="post">
+                    <div class="grid2">
+                        <label for="q16-a1" class="wrong">
+                            <input type="radio" id="q16-a1" name="q16" value="wheat" />
+                            Wheat
+                        </label>
+                        <label for="q16-a2" class="wrong">
+                            <input type="radio" id="q16-a2" name="q16" value="ground nut" />
+                            Ground Nut
+                        </label>
+                        <label for="q16-a3" class="wrong">
+                            <input type="radio" id="q16-a3" name="q16" value="pulses" />
+                            Pulses
+                        </label>
+                        <label for="q16-a4" class="ans">
+                            <input type="radio" id="q16-a4" name="q16" value="cotton" checked />
+                            Cotton
+                        </label>
+                    </div>
+                    <a href="#geo1" class="next">
+                        <input type="button" value="Back" class="btn blue">
+                    </a>
+                    <input type="reset" value="Clear" class="btn red">
+                    <a href="#geo2" class="next">
+                        <input type="button" value="Next" class="btn green">
+                    </a>
+                </form>
+            </div>
+        </section>
+        <section class="quiz-section" id="geo2">
+            <div class="quiz">
+                <h2>The Bengal Gneiss was found for the first time in which of the following district of West Bengal ?</h2>
+                <form method="post">
+                    <div class="grid2">
+                        <label for="q17-a1">
+                            <input type="radio" id="q17-a1" name="q17" value="Midnapur" />
+                            Midnapur
+                        </label>
+                        <label for="q17-a2">
+                            <input type="radio" id="q17-a2" name="q17" value="Howrah" />
+                            Howrah
+                        </label>
+                        <label for="q17-a3">
+                            <input type="radio" id="q17-a3" name="q17" value="Kolkata" />
+                            Kolkata
+                        </label>
+                        <label for="q17-a4">
+                            <input type="radio" id="q17-a4" name="q17" value="Durgapur" />
+                            Durgapur
+                        </label>
+                    </div>
+                    <a href="#geo1" class="next">
+                        <input type="button" value="Back" class="btn blue">
+                    </a>
+                    <input type="reset" value="Clear" class="btn red">
+                    <a href="#geo7" class="next">
+                        <input type="button" value="Next" class="btn green">
+                    </a>
+                </form>
+            </div>
+        </section>
+        <section class="quiz-section" id="geo7">
+            <div class="quiz">
+                <h2>The Bengal Gneiss was found for the first time in which of the following district of West Bengal ?</h2>
+                <form method="post">
+                    <div class="grid2">
+                        <label for="q17-a1" class="wrong">
+                            <input type="radio" id="q17-a1" name="q17" value="Midnapur" />
+                            Midnapur
+                        </label>
+                        <label for="q17-a2" class="ans">
+                            <input type="radio" id="q17-a2" name="q17" value="Howrah" checked />
+                            Howrah
+                        </label>
+                        <label for="q17-a3" class="wrong">
+                            <input type="radio" id="q17-a3" name="q17" value="Kolkata" />
+                            Kolkata
+                        </label>
+                        <label for="q17-a4" class="wrong">
+                            <input type="radio" id="q17-a4" name="q17" value="Durgapur" />
+                            Durgapur
+                        </label>
+                    </div>
+                    <a href="#geo2" class="next">
+                        <input type="button" value="Back" class="btn blue">
+                    </a>
+                    <input type="reset" value="Clear" class="btn red">
+                    <a href="#geo3" class="next">
+                        <input type="button" value="Next" class="btn green">
+                    </a>
+                </form>
+            </div>
+        </section>
+        <section class="quiz-section" id="geo3">
+            <div class="quiz">
+                <h2>What percent of India's territory comes under the moderate and high seismic zones ?</h2>
+                <form method="post">
+                    <div class="grid2">
+                        <label for="q18-a1">
+                            <input type="radio" id="q18-a1" name="q18" value="20%" />
+                            20%
+                        </label>
+                        <label for="q18-a2">
+                            <input type="radio" id="q18-a2" name="q18" value="35%" />
+                            35%
+                        </label>
+                        <label for="q18-a3">
+                            <input type="radio" id="q18-a3" name="q18" value="42%" />
+                            42%
+                        </label>
+                        <label for="q18-a4">
+                            <input type="radio" id="q18-a4" name="q18" value="60%" />
+                            60%
+                        </label>
+                    </div>
+                    <a href="#geo2" class="next">
+                        <input type="button" value="Back" class="btn blue">
+                    </a>
+                    <input type="reset" value="Clear" class="btn red">
+                    <a href="#geo8" class="next">
+                        <input type="button" value="Next" class="btn green">
+                    </a>
+                </form>
+            </div>
+        </section>
+        <section class="quiz-section" id="geo8">
+            <div class="quiz">
+                <h2>What percent of India's territory comes under the moderate and high seismic zones ?</h2>
+                <form method="post">
+                    <div class="grid2">
+                        <label for="q18-a1" class="wrong">
+                            <input type="radio" id="q18-a1" name="q18" value="20%" />
+                            20%
+                        </label>
+                        <label for="q18-a2" class="wrong">
+                            <input type="radio" id="q18-a2" name="q18" value="35%" />
+                            35%
+                        </label>
+                        <label for="q18-a3" class="wrong">
+                            <input type="radio" id="q18-a3" name="q18" value="42%" />
+                            42%
+                        </label>
+                        <label for="q18-a4" class="ans">
+                            <input type="radio" id="q18-a4" name="q18" value="60%" checked />
+                            60%
+                        </label>
+                    </div>
+                    <a href="#geo3" class="next">
+                        <input type="button" value="Back" class="btn blue">
+                    </a>
+                    <input type="reset" value="Clear" class="btn red">
+                    <a href="#geo4" class="next">
+                        <input type="button" value="Next" class="btn green">
+                    </a>
+                </form>
+            </div>
+        </section>
+        <section class="quiz-section" id="geo4">
+            <div class="quiz">
+                <h2>Jampui Hill range is located in which of the following states of India ?</h2>
+                <form method="post">
+                    <div class="grid2">
+                        <label for="q19-a1">
+                            <input type="radio" id="q19-a1" name="q19" value="Tripura" />
+                            Tripura
+                        </label>
+                        <label for="q19-a2">
+                            <input type="radio" id="q19-a2" name="q19" value="Assam" />
+                            Assam
+                        </label>
+                        <label for="q19-a3">
+                            <input type="radio" id="q19-a3" name="q19" value="Manipur" />
+                            Manipur
+                        </label>
+                        <label for="q19-a4">
+                            <input type="radio" id="q19-a4" name="q19" value="Arunachal Pradesh" />
+                            Arunachal Pradesh
+                        </label>
+                    </div>
+                    <a href="#geo3" class="next">
+                        <input type="button" value="Back" class="btn blue">
+                    </a>
+                    <input type="reset" value="Clear" class="btn red">
+                    <a href="#geo9" class="next">
+                        <input type="button" value="Next" class="btn green">
+                    </a>
+                </form>
+            </div>
+        </section>
+        <section class="quiz-section" id="geo9">
+            <div class="quiz">
+                <h2>Jampui Hill range is located in which of the following states of India ?</h2>
+                <form method="post">
+                    <div class="grid2">
+                        <label for="q19-a1" class="ans">
+                            <input type="radio" id="q19-a1" name="q19" value="Tripura" checked />
+                            Tripura
+                        </label>
+                        <label for="q19-a2" class="wrong">
+                            <input type="radio" id="q19-a2" name="q19" value="Assam" />
+                            Assam
+                        </label>
+                        <label for="q19-a3" class="wrong">
+                            <input type="radio" id="q19-a3" name="q19" value="Manipur" />
+                            Manipur
+                        </label>
+                        <label for="q19-a4" class="wrong">
+                            <input type="radio" id="q19-a4" name="q19" value="Arunachal Pradesh" />
+                            Arunachal Pradesh
+                        </label>
+                    </div>
+                    <a href="#geo4" class="next">
+                        <input type="button" value="Back" class="btn blue">
+                    </a>
+                    <input type="reset" value="Clear" class="btn red">
+                    <a href="#geo5" class="next">
+                        <input type="button" value="Next" class="btn green">
+                    </a>
+                </form>
+            </div>
+        </section>
+        <section class="quiz-section" id="geo5">
+            <div class="quiz">
+                <h2>Which of the following river flows in the Andaman island ?</h2>
+                <form method="post">
+                    <div class="grid2">
+                        <label for="q20-a1">
+                            <input type="radio" id="q20-a1" name="q20" value="Kaladan" />
+                            Kaladan
+                        </label>
+                        <label for="q20-a2">
+                            <input type="radio" id="q20-a2" name="q20" value="Myitnge" />
+                            Myitnge
+                        </label>
+                        <label for="q20-a3">
+                            <input type="radio" id="q20-a3" name="q20" value="Pein" />
+                            Pein
+                        </label>
+                        <label for="q20-a4">
+                            <input type="radio" id="q20-a4" name="q20" value="Kalpong" />
+                            Kalpong
+                        </label>
+                    </div>
+                    <a href="#geo4" class="next">
+                        <input type="button" value="Back" class="btn blue">
+                    </a>
+                    <input type="reset" value="Clear" class="btn red">
+                    <a href="#geo10" class="next">
+                        <input type="button" value="Next" class="btn green">
+                    </a>
+                </form>
+            </div>
+        </section>
+        <section class="quiz-section" id="geo10">
+            <div class="quiz">
+                <h2>Which of the following river flows in the Andaman island ?</h2>
+                <form method="post">
+                    <div class="grid2" class="wrong">
+                        <label for="q20-a1">
+                            <input type="radio" id="q20-a1" name="q20" value="Kaladan" />
+                            Kaladan
+                        </label>
+                        <label for="q20-a2" class="wrong">
+                            <input type="radio" id="q20-a2" name="q20" value="Myitnge" />
+                            Myitnge
+                        </label>
+                        <label for="q20-a3" class="wrong">
+                            <input type="radio" id="q20-a3" name="q20" value="Pein" />
+                            Pein
+                        </label>
+                        <label for="q20-a4" class="ans">
+                            <input type="radio" id="q20-a4" name="q20" value="Kalpong" checked />
+                            Kalpong
+                        </label>
+                    </div>
+                    <a href="#geo5" class="next">
+                        <input type="button" value="Back" class="btn blue">
+                    </a>
+                    <input type="reset" value="Clear" class="btn red">
+                    <a href="#submit" class="next">
+                        <input type="button" value="Submit" class="btn green">
+                    </a>
+                </form>
+            </div>
+        </section>
+        <section class="quiz-section" id="lit1">
+            <div class="quiz">
+                <h2>Who was the author of the famous storybook 'Alice's Adventures in Wonderland' ?</h2>
+                <form method="post">
+                    <div class="grid2">
+                        <label for="q21-a1">
+                            <input type="radio" id="q21-a1" name="q21" value="Rudyard Kipling" />
+                            Rudyard Kipling
+                        </label>
+                        <label for="q1-a2">
+                            <input type="radio" id="q21-a2" name="q21" value="John Keats" />
+                            John Keats
+                        </label>
+                        <label for="q21-a3">
+                            <input type="radio" id="q21-a3" name="q21" value="Lewis Carroll" />
+                            Lewis Carroll
+                        </label>
+                        <label for="q21-a4">
+                            <input type="radio" id="q21-a4" name="q21" value="H G Wells" />
+                            H G Wells
+                        </label>
+                    </div>
+                    <a href="#" class="next">
+                        <input type="button" value="Main Menu" class="btn blue">
+                    </a>
+                    <input type="reset" value="Clear" class="btn red">
+                    <a href="#lit6" class="next">
+                        <input type="button" value="Next" class="btn green">
+                    </a>
+                </form>
+            </div>
+        </section>
+        <section class="quiz-section" id="lit6">
+            <div class="quiz">
+                <h2>Who was the author of the famous storybook 'Alice's Adventures in Wonderland' ?</h2>
+                <form method="post">
+                    <div class="grid2">
+                        <label for="q21-a1" class="wrong">
+                            <input type="radio" id="q21-a1" name="q21" value="Rudyard Kipling" />
+                            Rudyard Kipling
+                        </label>
+                        <label for="q1-a2" class="wrong">
+                            <input type="radio" id="q21-a2" name="q21" value="John Keats" />
+                            John Keats
+                        </label>
+                        <label for="q21-a3" class="ans">
+                            <input type="radio" id="q21-a3" name="q21" value="Lewis Carroll" checked />
+                            Lewis Carroll
+                        </label>
+                        <label for="q21-a4" class="wrong">
+                            <input type="radio" id="q21-a4" name="q21" value="H G Wells" />
+                            H G Wells
+                        </label>
+                    </div>
+                    <a href="#lit1" class="next">
+                        <input type="button" value="Back" class="btn blue">
+                    </a>
+                    <input type="reset" value="Clear" class="btn red">
+                    <a href="#lit2" class="next">
+                        <input type="button" value="Next" class="btn green">
+                    </a>
+                </form>
+            </div>
+        </section>
+        <section class="quiz-section" id="lit2">
+            <div class="quiz">
+                <h2>What was the nationality of Robert Louis Stevenson, writer of 'Treasure Island' ?</h2>
+                <form method="post">
+                    <div class="grid2">
+                        <label for="q22-a1">
+                            <input type="radio" id="q22-a1" name="q22" value="Scottish" />
+                            Scottish
+                        </label>
+                        <label for="q22-a2">
+                            <input type="radio" id="q22-a2" name="q22" value="Welsh" />
+                            Welsh
+                        </label>
+                        <label for="q22-a3">
+                            <input type="radio" id="q22-a3" name="q22" value="Irish" />
+                            Irish
+                        </label>
+                        <label for="q22-a4">
+                            <input type="radio" id="q22-a4" name="q22" value="French" />
+                            French
+                        </label>
+                    </div>
+                    <a href="#lit1" class="next">
+                        <input type="button" value="Back" class="btn blue">
+                    </a>
+                    <input type="reset" value="Clear" class="btn red">
+                    <a href="#lit7" class="next">
+                        <input type="button" value="Next" class="btn green">
+                    </a>
+                </form>
+            </div>
+        </section>
+        <section class="quiz-section" id="lit7">
+            <div class="quiz">
+                <h2>What was the nationality of Robert Louis Stevenson, writer of 'Treasure Island' ?</h2>
+                <form method="post">
+                    <div class="grid2">
+                        <label for="q22-a1" class="ans">
+                            <input type="radio" id="q22-a1" name="q22" value="Scottish" checked />
+                            Scottish
+                        </label>
+                        <label for="q22-a2" class="wrong">
+                            <input type="radio" id="q22-a2" name="q22" value="Welsh" />
+                            Welsh
+                        </label>
+                        <label for="q22-a3" class="wrong">
+                            <input type="radio" id="q22-a3" name="q22" value="Irish" />
+                            Irish
+                        </label>
+                        <label for="q22-a4" class="wrong">
+                            <input type="radio" id="q22-a4" name="q22" value="French" />
+                            French
+                        </label>
+                    </div>
+                    <a href="#lit2" class="next">
+                        <input type="button" value="Back" class="btn blue">
+                    </a>
+                    <input type="reset" value="Clear" class="btn red">
+                    <a href="#lit3" class="next">
+                        <input type="button" value="Next" class="btn green">
+                    </a>
+                </form>
+            </div>
+        </section>
+        <section class="quiz-section" id="lit3">
+            <div class="quiz">
+                <h2>'Jane Eyre' was written by which Bronte sister ?</h2>
+                <form method="post">
+                    <div class="grid2">
+                        <label for="q23-a1">
+                            <input type="radio" id="q23-a1" name="q23" value="Anne" />
+                            Anne
+                        </label>
+                        <label for="q23-a2">
+                            <input type="radio" id="q23-a2" name="q23" value="Charlotte" />
+                            Charlotte
+                        </label>
+                        <label for="q23-a3">
+                            <input type="radio" id="q23-a3" name="q23" value="Emily" />
+                            Emily
+                        </label>
+                        <label for="q23-a4">
+                            <input type="radio" id="q23-a4" name="q23" value="Jane" />
+                            Jane
+                        </label>
+                    </div>
+                    <a href="#lit2" class="next">
+                        <input type="button" value="Back" class="btn blue">
+                    </a>
+                    <input type="reset" value="Clear" class="btn red">
+                    <a href="#lit8" class="next">
+                        <input type="button" value="Next" class="btn green">
+                    </a>
+                </form>
+            </div>
+        </section>
+        <section class="quiz-section" id="lit8">
+            <div class="quiz">
+                <h2>'Jane Eyre' was written by which Bronte sister ?</h2>
+                <form method="post">
+                    <div class="grid2" class="wrong">
+                        <label for="q23-a1">
+                            <input type="radio" id="q23-a1" name="q23" value="Anne" />
+                            Anne
+                        </label>
+                        <label for="q23-a2" class="ans">
+                            <input type="radio" id="q23-a2" name="q23" value="Charlotte" checked />
+                            Charlotte
+                        </label>
+                        <label for="q23-a3" class="wrong">
+                            <input type="radio" id="q23-a3" name="q23" value="Emily" />
+                            Emily
+                        </label>
+                        <label for="q23-a4" class="wrong">
+                            <input type="radio" id="q23-a4" name="q23" value="Jane" />
+                            Jane
+                        </label>
+                    </div>
+                    <a href="#lit3" class="next">
+                        <input type="button" value="Back" class="btn blue">
+                    </a>
+                    <input type="reset" value="Clear" class="btn red">
+                    <a href="#lit4" class="next">
+                        <input type="button" value="Next" class="btn green">
+                    </a>
+                </form>
+            </div>
+        </section>
+        <section class="quiz-section" id="lit4">
+            <div class="quiz">
+                <h2>In the book 'the Lord of the Rings' , who or what is Bilbo ?</h2>
+                <form method="post">
+                    <div class="grid2">
+                        <label for="q24-a1">
+                            <input type="radio" id="q24-a1" name="q24" value="Dwarf" />
+                            Dwarf
+                        </label>
+                        <label for="q24-a2">
+                            <input type="radio" id="q24-a2" name="q24" value="Wizard" />
+                            Wizard
+                        </label>
+                        <label for="q24-a3">
+                            <input type="radio" id="q24-a3" name="q24" value="Hobbit" />
+                            Hobbit
+                        </label>
+                        <label for="q24-a4">
+                            <input type="radio" id="q24-a4" name="q24" value="Troll" />
+                            Troll
+                        </label>
+                    </div>
+                    <a href="#lit3" class="next">
+                        <input type="button" value="Back" class="btn blue">
+                    </a>
+                    <input type="reset" value="Clear" class="btn red">
+                    <a href="#lit9" class="next">
+                        <input type="button" value="Next" class="btn green">
+                    </a>
+                </form>
+            </div>
+        </section>
+        <section class="quiz-section" id="lit9">
+            <div class="quiz">
+                <h2>In the book 'the Lord of the Rings' , who or what is Bilbo ?</h2>
+                <form method="post">
+                    <div class="grid2">
+                        <label for="q24-a1" class="wrong">
+                            <input type="radio" id="q24-a1" name="q24" value="Dwarf" />
+                            Dwarf
+                        </label>
+                        <label for="q24-a2" class="wrong">
+                            <input type="radio" id="q24-a2" name="q24" value="Wizard" />
+                            Wizard
+                        </label>
+                        <label for="q24-a3" class="ans">
+                            <input type="radio" id="q24-a3" name="q24" value="Hobbit" checked />
+                            Hobbit
+                        </label>
+                        <label for="q24-a4" class="wrong">
+                            <input type="radio" id="q24-a4" name="q24" value="Troll" />
+                            Troll
+                        </label>
+                    </div>
+                    <a href="#lit4" class="next">
+                        <input type="button" value="Back" class="btn blue">
+                    </a>
+                    <input type="reset" value="Clear" class="btn red">
+                    <a href="#lit5" class="next">
+                        <input type="button" value="Next" class="btn green">
+                    </a>
+                </form>
+            </div>
+        </section>
+        <section class="quiz-section" id="lit5">
+            <div class="quiz">
+                <h2>Name That Author: Who wrote The Iliad ?</h2>
+                <form method="post">
+                    <div class="grid2">
+                        <label for="q25-a1">
+                            <input type="radio" id="q25-a1" name="q25" value="Euripides" />
+                            Euripides
+                        </label>
+                        <label for="q25-a2">
+                            <input type="radio" id="q25-a2" name="q25" value="Beowulf" />
+                            Beowulf
+                        </label>
+                        <label for="q25-a3">
+                            <input type="radio" id="q25-a3" name="q25" value="Homer" />
+                            Homer
+                        </label>
+                        <label for="q25-a4">
+                            <input type="radio" id="q25-a4" name="q25" value="Virgil" />
+                            Virgil
+                        </label>
+                    </div>
+                    <a href="#lit4" class="next">
+                        <input type="button" value="Back" class="btn blue">
+                    </a>
+                    <input type="reset" value="Clear" class="btn red">
+                    <a href="#lit10" class="next">
+                        <input type="button" value="Next" class="btn green">
+                    </a>
+                </form>
+            </div>
+        </section>
+        <section class="quiz-section" id="lit10">
+            <div class="quiz">
+                <h2>Name That Author: Who wrote The Iliad ?</h2>
+                <form method="post">
+                    <div class="grid2">
+                        <label for="q25-a1" class="wrong">
+                            <input type="radio" id="q25-a1" name="q25" value="Euripides" />
+                            Euripides
+                        </label>
+                        <label for="q25-a2" class="wrong">
+                            <input type="radio" id="q25-a2" name="q25" value="Beowulf" />
+                            Beowulf
+                        </label>
+                        <label for="q25-a3" class="ans">
+                            <input type="radio" id="q25-a3" name="q25" value="Homer" checked />
+                            Homer
+                        </label>
+                        <label for="q25-a4" class="wrong">
+                            <input type="radio" id="q25-a4" name="q25" value="Virgil" />
+                            Virgil
+                        </label>
+                    </div>
+                    <a href="#lit5" class="next">
+                        <input type="button" value="Back" class="btn blue">
+                    </a>
+                    <input type="reset" value="Clear" class="btn red">
+                    <a href="#submit" class="next">
+                        <input type="button" value="Submit" class="btn green">
+                    </a>
+                </form>
+            </div>
+        </section>
+        <section class="quiz-section" id="enter1">
+            <div class="quiz">
+                <h2>Which Bollywood actor was honoured with the 24th Crystal Award at the world Economic Forum meeting in january 2018 ?</h2>
+                <form method="post">
+                    <div class="grid2">
+                        <label for="q26-a1">
+                            <input type="radio" id="q26-a1" name="q26" value="SRK" />
+                            SRK
+                        </label>
+                        <label for="q26-a2">
+                            <input type="radio" id="q26-a2" name="q26" value="Aamir Khan" />
+                            Aamir Khan
+                        </label>
+                        <label for="q26-a3">
+                            <input type="radio" id="q26-a3" name="q26" value="Salman Khan" />
+                            Salman Khan
+                        </label>
+                        <label for="q26-a4">
+                            <input type="radio" id="q26-a4" name="q26" value="Saif Ali Khan" />
+                            Saif Ali Khan
+                        </label>
+                    </div>
+                    <a href="#" class="next">
+                        <input type="button" value="Main Menu" class="btn blue">
+                    </a>
+                    <input type="reset" value="Clear" class="btn red">
+                    <a href="#enter6" class="next">
+                        <input type="button" value="Next" class="btn green">
+                    </a>
+                </form>
+            </div>
+        </section>
+        <section class="quiz-section" id="enter6">
+            <div class="quiz">
+                <h2>Which Bollywood actor was honoured with the 24th Crystal Award at the world Economic Forum meeting in january 2018 ?</h2>
+                <form method="post">
+                    <div class="grid2">
+                        <label for="q26-a1" class="ans">
+                            <input type="radio" id="q26-a1" name="q26" value="SRK" checked />
+                            SRK
+                        </label>
+                        <label for="q26-a2" class="wrong">
+                            <input type="radio" id="q26-a2" name="q26" value="Aamir Khan" />
+                            Aamir Khan
+                        </label>
+                        <label for="q26-a3" class="wrong">
+                            <input type="radio" id="q26-a3" name="q26" value="Salman Khan" />
+                            Salman Khan
+                        </label>
+                        <label for="q26-a4" class="wrong">
+                            <input type="radio" id="q26-a4" name="q26" value="Saif Ali Khan" />
+                            Saif Ali Khan
+                        </label>
+                    </div>
+                    <a href="#enter1" class="next">
+                        <input type="button" value="Back" class="btn blue">
+                    </a>
+                    <input type="reset" value="Clear" class="btn red">
+                    <a href="#enter2" class="next">
+                        <input type="button" value="Next" class="btn green">
+                    </a>
+                </form>
+            </div>
+        </section>
+        <section class="quiz-section" id="enter2">
+            <div class="quiz">
+                <h2>Which Bollywood actor has been declared as the ‘National Icon’ of Election Commission of India (ECI) in 2022 ?</h2>
+                <form method="post">
+                    <div class="grid2">
+                        <label for="q27-a1">
+                            <input type="radio" id="q27-a1" name="q27" value="Pankaj Tripathi" />
+                            Pankaj Tripathi
+                        </label>
+                        <label for="q27-a2">
+                            <input type="radio" id="q27-a2" name="q27" value="Rajkummar Rao" />
+                            Rajkummar Rao
+                        </label>
+                        <label for="q27-a3">
+                            <input type="radio" id="q27-a3" name="q27" value="Manoj Bajpayee" />
+                            Manoj Bajpayee
+                        </label>
+                        <label for="q27-a4">
+                            <input type="radio" id="q27-a4" name="q27" value="Nawazuddin Siddiqui" />
+                            Nawazuddin Siddiqui
+                        </label>
+                    </div>
+                    <a href="#enter1" class="next">
+                        <input type="button" value="Back" class="btn blue">
+                    </a>
+                    <input type="reset" value="Clear" class="btn red">
+                    <a href="#enter7" class="next">
+                        <input type="button" value="Next" class="btn green">
+                    </a>
+                </form>
+            </div>
+        </section>
+        <section class="quiz-section" id="enter7">
+            <div class="quiz">
+                <h2>Which Bollywood actor has been declared as the ‘National Icon’ of Election Commission of India (ECI) in 2022 ?</h2>
+                <form method="post">
+                    <div class="grid2">
+                        <label for="q27-a1" class="wrong">
+                            <input type="radio" id="q27-a1" name="q27" value="Pankaj Tripathi" />
+                            Pankaj Tripathi
+                        </label>
+                        <label for="q27-a2" class="wrong">
+                            <input type="radio" id="q27-a2" name="q27" value="Rajkummar Rao" />
+                            Rajkummar Rao
+                        </label>
+                        <label for="q27-a3" class="ans">
+                            <input type="radio" id="q27-a3" name="q27" value="Manoj Bajpayee" checked />
+                            Manoj Bajpayee
+                        </label>
+                        <label for="q27-a4" class="wrong">
+                            <input type="radio" id="q27-a4" name="q27" value="Nawazuddin Siddiqui" />
+                            Nawazuddin Siddiqui
+                        </label>
+                    </div>
+                    <a href="#enter2" class="next">
+                        <input type="button" value="Back" class="btn blue">
+                    </a>
+                    <input type="reset" value="Clear" class="btn red">
+                    <a href="#enter3" class="next">
+                        <input type="button" value="Next" class="btn green">
+                    </a>
+                </form>
+            </div>
+        </section>
+        <section class="quiz-section" id="enter3">
+            <div class="quiz">
+                <h2>Which Bollywood celebrity is the brand ambassador for the Chinese smartphone firm Tecno?</h2>
+                <form method="post">
+                    <div class="grid2">
+                        <label for="q28-a1">
+                            <input type="radio" id="q28-a1" name="q28" value="Amitabh Bachan" />
+                            Amitabh Bachan
+                        </label>
+                        <label for="q28-a2">
+                            <input type="radio" id="q28-a2" name="q28" value="SRK" />
+                            SRK
+                        </label>
+                        <label for="q28-a3">
+                            <input type="radio" id="q28-a3" name="q28" value="Ayushmann Khurana" />
+                            Ayushmann Khurana
+                        </label>
+                        <label for="q28-a4">
+                            <input type="radio" id="q28-a4" name="q28" value="Vidyut Jamwal" />
+                            Vidyut Jamwal
+                        </label>
+                    </div>
+                    <a href="#enter2" class="next">
+                        <input type="button" value="Back" class="btn blue">
+                    </a>
+                    <input type="reset" value="Clear" class="btn red">
+                    <a href="#enter8" class="next">
+                        <input type="button" value="Next" class="btn green">
+                    </a>
+                </form>
+            </div>
+        </section>
+        <section class="quiz-section" id="enter8">
+            <div class="quiz">
+                <h2>Which Bollywood celebrity is the brand ambassador for the Chinese smartphone firm Tecno?</h2>
+                <form method="post">
+                    <div class="grid2">
+                        <label for="q28-a1" class="wrong">
+                            <input type="radio" id="q28-a1" name="q28" value="Amitabh Bachan" />
+                            Amitabh Bachan
+                        </label>
+                        <label for="q28-a2" class="wrong">
+                            <input type="radio" id="q28-a2" name="q28" value="SRK" />
+                            SRK
+                        </label>
+                        <label for="q28-a3" class="ans">
+                            <input type="radio" id="q28-a3" name="q28" value="Ayushmann Khurana" checked />
+                            Ayushmann Khurana
+                        </label>
+                        <label for="q28-a4" class="wrong">
+                            <input type="radio" id="q28-a4" name="q28" value="Vidyut Jamwal" />
+                            Vidyut Jamwal
+                        </label>
+                    </div>
+                    <a href="#enter3" class="next">
+                        <input type="button" value="Back" class="btn blue">
+                    </a>
+                    <input type="reset" value="Clear" class="btn red">
+                    <a href="#enter4" class="next">
+                        <input type="button" value="Next" class="btn green">
+                    </a>
+                </form>
+            </div>
+        </section>
+        <section class="quiz-section" id="enter4">
+            <div class="quiz">
+                <h2>Who directed the film “Barfi!” ?</h2>
+                <form method="post">
+                    <div class="grid2">
+                        <label for="q29-a1">
+                            <input type="radio" id="q29-a1" name="q29" value="Anurag Kashyap" />
+                            Anurag Kashyap
+                        </label>
+                        <label for="q29-a2">
+                            <input type="radio" id="q29-a2" name="q29" value="Imtiaz Ali" />
+                            Imtiaz Ali
+                        </label>
+                        <label for="q29-a3">
+                            <input type="radio" id="q29-a3" name="q29" value="Anurag Basu" />
+                            Anurag Basu
+                        </label>
+                        <label for="q29-a4">
+                            <input type="radio" id="q29-a4" name="q29" value="Zoya Akhtar" />
+                            Zoya Akhtar
+                        </label>
+                    </div>
+                    <a href="#enter3" class="next">
+                        <input type="button" value="Back" class="btn blue">
+                    </a>
+                    <input type="reset" value="Clear" class="btn red">
+                    <a href="#enter9" class="next">
+                        <input type="button" value="Next" class="btn green">
+                    </a>
+                </form>
+            </div>
+        </section>
+        <section class="quiz-section" id="enter9">
+            <div class="quiz">
+                <h2>Who directed the film “Barfi!” ?</h2>
+                <form method="post">
+                    <div class="grid2">
+                        <label for="q29-a1" class="wrong">
+                            <input type="radio" id="q29-a1" name="q29" value="Anurag Kashyap" />
+                            Anurag Kashyap
+                        </label>
+                        <label for="q29-a2" class="wrong">
+                            <input type="radio" id="q29-a2" name="q29" value="Imtiaz Ali" />
+                            Imtiaz Ali
+                        </label>
+                        <label for="q29-a3" class="ans">
+                            <input type="radio" id="q29-a3" name="q29" value="Anurag Basu" checked />
+                            Anurag Basu
+                        </label>
+                        <label for="q29-a4" class="wrong">
+                            <input type="radio" id="q29-a4" name="q29" value="Zoya Akhtar" />
+                            Zoya Akhtar
+                        </label>
+                    </div>
+                    <a href="#enter4" class="next">
+                        <input type="button" value="Back" class="btn blue">
+                    </a>
+                    <input type="reset" value="Clear" class="btn red">
+                    <a href="#enter5" class="next">
+                        <input type="button" value="Next" class="btn green">
+                    </a>
+                </form>
+            </div>
+        </section>
+        <section class="quiz-section" id="enter5">
+            <div class="quiz">
+                <h2>Which film won the National Film Award for Best Popular Film Providing Wholesome Entertainment in 2020 ?</h2>
+                <form method="post">
+                    <div class="grid2">
+                        <label for="q30-a1">
+                            <input type="radio" id="q30-a1" name="q30" value="Dangal" />
+                            Dangal
+                        </label>
+                        <label for="q30-a2">
+                            <input type="radio" id="q30-a2" name="q30" value="Padmaavat" />
+                            Padmaavat
+                        </label>
+                        <label for="q30-a3">
+                            <input type="radio" id="q30-a3" name="q30" value="Kabir Singh" />
+                            Kabir Singh
+                        </label>
+                        <label for="q30-a4">
+                            <input type="radio" id="q30-a4" name="q30" value="War" />
+                            War
+                        </label>
+                    </div>
+                    <a href="#enter4" class="next">
+                        <input type="button" value="Back" class="btn blue">
+                    </a>
+                    <input type="reset" value="Clear" class="btn red">
+                    <a href="#enter10" class="next">
+                        <input type="button" value="Submit" class="btn green">
+                    </a>
+                </form>
+            </div>
+        </section>
+        <section class="quiz-section" id="enter10">
+            <div class="quiz">
+                <h2>Which film won the National Film Award for Best Popular Film Providing Wholesome Entertainment in 2020 ?</h2>
+                <form method="post">
+                    <div class="grid2">
+                        <label for="q30-a1" class="wrong">
+                            <input type="radio" id="q30-a1" name="q30" value="Dangal" />
+                            Dangal
+                        </label>
+                        <label for="q30-a2" class="wrong">
+                            <input type="radio" id="q30-a2" name="q30" value="Padmaavat" />
+                            Padmaavat
+                        </label>
+                        <label for="q30-a3" class="wrong">
+                            <input type="radio" id="q30-a3" name="q30" value="Kabir Singh" />
+                            Kabir Singh
+                        </label>
+                        <label for="q30-a4" class="ans">
+                            <input type="radio" id="q30-a4" name="q30" value="Tanhaji" checked />
+                            Tanhaji
+                        </label>
+                    </div>
+                    <a href="#enter5" class="next">
+                        <input type="button" value="Back" class="btn blue">
+                    </a>
+                    <input type="reset" value="Clear" class="btn red">
+                    <a href="#submit" class="next">
+                        <input type="button" value="Submit" class="btn green">
+                    </a>
+                </form>
+            </div>
+        </section>
+        <section class="submit-section" id="submit">
+            <div class="submit">
+                <h2>Thank You for Attempting My Quiz</h2>
+                <h2>I hope my quiz was upto your standard</h2>
+                <h2>If you want to give any suggestion to Me</h2>
+                <h2>You can contact me using link on the footer</h2>
+                <h2>If you want to attempt quiz of another subject, click the button below</h2>
+                <a href="#">
+                    <input type="button" value="Main Menu" class="btn blue" id="sub">
+                </a>
+            </div>
+        </section>
+    </body>
+</html>
